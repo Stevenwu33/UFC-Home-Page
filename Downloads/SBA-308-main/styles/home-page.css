@@ -1,0 +1,164 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+header {
+    background-color: black; /* Entire header is black */
+    width: 100vw;
+    height: 20vh; /* Covers full viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+nav {
+    position: relative; /* Brings navbar in front of black background */
+    width: 90%;
+    background-color: white; /* Navbar is white */
+    /* padding: 10px 0; */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Adds subtle shadow */
+    z-index: 10; /* Ensures it's above the black header */
+    border-radius: 1px;
+    /* height: 60px; */
+}
+
+nav > ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+li a {
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+li a:hover {
+    padding: 10px 30px;
+    text-decoration: none;
+    color: red;
+    border-bottom: 2px solid red;
+    padding-bottom: 25px;
+
+}
+
+
+.main-event{
+    display: flex;
+    flex-direction: column;
+    margin-top: 260px;
+    align-items: center;
+    /* border: 1px solid; */
+    font-family:sans-serif;
+    color: white;
+    text-shadow:  0.1em 0.1em #333;
+}
+
+.fighter{
+    font-size: 320%;
+}
+
+.message{
+    letter-spacing: -1px;
+    margin-top: -10px;   
+}
+
+.event{
+    padding-top: 19px;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    font-weight:600;
+    border: white;
+
+}
+button:hover{
+    background-color:tan;
+    color: white;
+}
+
+.title-ranking{
+    text-align: center;
+    border: 1px solid;
+}
+
+/* Section Styling */
+.rankings-section {
+    text-align: center;
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Table Title (Weight Class) */
+.rankings-section h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin: 20px 0 10px;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 1px;
+}
+
+/* Table Styling */
+.rankings-table {
+    width: 50%;
+    margin: 0 auto 30px;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+/* Table Cells */
+.rankings-table td {
+    padding: 15px;
+    font-size: 18px;
+    color: black;
+    text-align: left;
+}
+
+/* Rank Column */
+.rankings-table td:first-child {
+    
+    font-weight: bold;
+    text-align: center;
+    width: 50px;
+}
+
+.rankings-table tr:first-child {
+    background-color: tan;
+    font-weight: bold;
+}
+
+
+/* Hover Effect */
+.rankings-table tr:hover {
+    background-color: #e0e0e0;
+}
+
+.title-ranking{
+    background-color: tan;
+}
+
+
+
+
