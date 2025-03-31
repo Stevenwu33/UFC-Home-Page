@@ -12,6 +12,8 @@ This is a simple HTML and CSS project to practice styling and layout design. It 
 - `styles/home-page.css` – Styling and layout
 
 ### Screen Shots
+![sign-up-page](jetbrains://idea/navigate/reference?project=SBA-308-main&path=image%2FScreenshot%202025-03-30%20at%2010.05.47%E2%80%AFPM.png)
+
 
 
 ### Purpose  
