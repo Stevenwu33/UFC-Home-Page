@@ -9,7 +9,10 @@ This is a simple HTML and CSS project to practice styling and layout design. It 
 
 ### Files  
 - `index.html` – Page structure  
-- `styles/home-page.css` – Styling and layout  
+- `styles/home-page.css` – Styling and layout
+
+### Screen Shots
+
 
 ### Purpose  
 This project helps me practice HTML, CSS, and flexbox while building a clean and structured webpage.
